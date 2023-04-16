@@ -1,0 +1,23 @@
+.header_wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 5px;
+
+    a {
+        margin: 0 5px;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .header__sideLink {
+        display: flex;
+        flex-flow: row nowrap;
+        list-style: none;
+        background-color: violet;
+    }
+}
